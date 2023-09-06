@@ -28,3 +28,14 @@ nav li {
     font-weight: bold;
     font-size: 125%;
 }
+
+section {
+    text-align: center;
+    width: 70vw;
+    margin: 50px auto;
+}
+
+section h1 {
+    margin-bottom: 15px;
+    color: rgb(252, 123, 3);
+}
