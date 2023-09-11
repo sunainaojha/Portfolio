@@ -86,9 +86,32 @@ section h1 {
     align-content: space-between;
     justify-content: space-evenly;
 }
-@media screen and (max-width:498px)  {
+@media screen and (max-width:800px)  {
     .me{
         width: 350px;
         height: auto;
+    }
+    section {
+        width: 90vw;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    .contact-info {
+        flex-direction: column;
+        text-align: center;
+    }
+    header h1 {
+        font-size: 120%;
+        align-content: center;
+        margin-top: 5px;
+    }
+    .about div p {
+        font-size: 110%;
+        line-height: 23px;
+    }
+
+    nav  ul a li {
+        font-size: 100%;
     }
 }
