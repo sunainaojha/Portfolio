@@ -1,7 +1,7 @@
 *, body {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -29,13 +29,66 @@ nav li {
     font-size: 125%;
 }
 
+.me {
+    border-radius: 50%;
+    border: 3px solid rgb(252, 123, 3);
+}
+
+p {
+    line-height: 30px;
+    font-size: 125%;
+}
+
+h1 {
+    font-size: 200%;
+}
+
 section {
     text-align: center;
-    width: 70vw;
+    width: 60vw;
     margin: 50px auto;
 }
 
 section h1 {
     margin-bottom: 15px;
     color: rgb(252, 123, 3);
+
+}
+
+.projects h2{
+    margin-bottom: 20px;
+}
+
+.projects a {
+    width: 100%;
+}
+
+.horiseonImg {
+    width: 75%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex img {
+    width: 88%;
+}
+
+.contact-info{
+    
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:498px)  {
+    .me{
+        width: 350px;
+        height: auto;
+    }
 }
