@@ -19,6 +19,4 @@ I have created my own protfolio mentioning about me, my work and my contact info
 
 ## Screenshots
 ![project.pic1](./assets/images/project.pic1.png)
-![project.pic2](./assets/images/project.pic2.png)
-![project.pic2](./assets/images/project.pic3.png)
-
+![newpic](./assets/images/newpic.png)
